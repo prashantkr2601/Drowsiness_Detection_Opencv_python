@@ -6,7 +6,6 @@ threaded
 numpy
 playsound
 argparse
-time
 dlib
 cv2
 os
