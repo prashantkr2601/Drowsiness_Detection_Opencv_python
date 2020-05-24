@@ -2,7 +2,7 @@ flask
 scipy
 imutils
 imutils
-threading
+threaded
 numpy
 playsound
 argparse
