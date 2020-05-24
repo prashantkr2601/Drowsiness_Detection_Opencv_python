@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Real Time Application for Drowsiness Detection</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">
+</head>
+<body>
+	
+    <div class="nav">
+        <nav>
+            <a href="#section1">Home</a>
+            <a href="#section2">Technology Used</a>
+            <a href="#section3">Features</a>
+            <a href="#section4">About Us</a>
+        </nav>
+    </div>
+   
+   <div id="section1" class="section">
+   		<h1 class='app'>Real Time Application For Drowsiness Detection</h1><br/>
+
+	<div class='container'>
+		<div class='row'>
+		<div class='col-md-12'>
+       
+	 <section class="customer-logos slider">
+  
+    <div class="slide"><img src="/static/images/client-1.png"></div>
+    <div class="slide"><img src="/static/images/client-2.png"></div>
+    <div class="slide"><img src="/static/images/client-3.png"></div>
+    <div class="slide"><img src="/static/images/client-4.png"></div>
+    <div class="slide"><img src="/static/images/client-5.png"></div>
+    <div class="slide"><img src="/static/images/client-6.png"></div>
+    
+    <div class="slide"><img src="/static/images/client-1.png"></div>
+    <div class="slide"><img src="/static/images/client-2.png"></div>
+    <div class="slide"><img src="/static/images/client-3.png"></div>
+    <div class="slide"><img src="/static/images/client-4.png"></div>
+    <div class="slide"><img src="/static/images/client-5.png"></div>
+    <div class="slide"><img src="/static/images/client-6.png"></div>
+  
+  </section>
+
+  <a href="/start" , method="POST", class="start", value="Submit">START</a>
+  
+		</div>
+		</div>
+		</div>
+		
+    </div>
+   
+   <div id="section2" class="section">
+       <div class='container'>
+			<div class='col-md-12 sec'>
+			<h2>Technology Used</h2>
+			<p>The main reason for motor vehicular accidents is the driver drowsiness. This work shows a surveillance system developed to detect and alert the vehicle driver about the presence of drowsiness. It uses a smartphone like small computer with a mobile application using Android operating system to implement the Human Computer Interaction System. For the detection of drowsiness, the most relevant visual indicators that reflect the driver’s condition are the behavior of the eyes, the lateral and frontal assent of the head and the yawn. </p><p>The system works adequately under natural lighting conditions and no matter the use of driver accessories like glasses, hearing aids or a cap. Due to a large number of traffic accidents when driver has fallen asleep this proposal was developed in order to prevent them by providing a non-invasive system, easy to use and without the necessity of purchasing specialized devices. The method gets 90% of drowsiness detection.</p>
+			
+			</div>
+	   </div>
+	   
+    </div>
+    
+	<div id="section3" class="section">
+        <div class='container'>
+			<div class='col-md-12 sec'>
+			<h2>Features</h2>
+			<p>This system is drowsiness detection system for automobile. Driver drowsiness will be determined from several symptoms that manifest in drowsy driver’s face. Through analysis of the eye states, the system will be able to tell a drowsy driver from a normal driver.</p><p> A video stream will be continuously obtained from the driver’s faces and feed into a microcontroller for processing. Classifiers will then be used to classify the state of the driver’s eye. If a drowsy driver is detected an alarm will be raised, until the system notices the driver is alert.</p><p> Development of the system was through agile methodology where the scrum and the extreme programming method were combined. The system was broken into small modules, these modules were developed independently and tested integration was done. During unit, testing refactoring was adopted in order to optimize the units for their intended purpose.</p>
+			
+			</div>
+	   </div>
+	   
+	   
+    </div>
+   
+   <div id="section4" class="section">
+        
+		 <div class='container'>
+			<div class='col-md-12 sec'>
+			<h2>About Us</h2>
+			<p>We are a team of 4 members pursuing graduation.This project  is under the mentorship of <strong>Dr. Devpriya Soni</strong> who is the senior professor at JIIT, NOIDA.</p>
+			<p>Team members are <strong> Prashant kumar </strong>,<strong> Ranjit kumar</strong>,<strong> Kunal Pandey  </strong><strong>and Saroj kumar chaudhary.</p>
+			
+			</div>
+	   </div>
+	   
+		
+    </div>
+	
+	<script src='/static/js/main.js' type='text/javascript'></script>
+	
+    <script src=/static/"js/slideNav.js" type="text/javascript"></script>
+    
+	
+	<script>
+	    window.slide = new SlideNav({
+		changeHash: true    
+	    });
+    </script>
+	
+	
+<script>
+
+$(document).ready(function(){
+  $('.customer-logos').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 4
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 2
+      }
+    }]
+  });
+});
+</script>
+
+<script src="/static/js/slick.js"></script>
+
+
+</body>
+</html>
