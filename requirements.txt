@@ -8,4 +8,4 @@ playsound
 argparse
 dlib
 opencv-python
-os
+os-sys
