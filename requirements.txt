@@ -1,6 +1,6 @@
 flask
 scipy
-imutils.video
+imutils
 imutils
 threading
 numpy
