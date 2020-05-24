@@ -7,5 +7,5 @@ numpy
 playsound
 argparse
 dlib
-cv2
+opencv-python
 os
