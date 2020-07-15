@@ -24,7 +24,7 @@ def eye_aspect_ratio(eye):
 	return ear
 @app.route('/')
 def home():
-	return render_template("2.html")
+	return render_template("index.html")
 @app.route('/start', methods=['GET','POST'])
 def start():
     EYE_AR_THRESH = 0.25
